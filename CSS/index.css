@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(243, 229, 216);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+:root {
+  --deep: rgb(143, 93, 77);
+}
+/* Global Styling */
+.flex {
+  display: flex;
+}
+/* End of Gobal Styling */
+
+.all-content {
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+  height: 90%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.container .all-content .simple h5 {
+  margin-top: -3px;
+  color: var(--deep);
+}
+.container .all-content .simple p {
+  font-size: x-small;
+}
+
+.container .all-content span {
+  font-weight: bolder;
+}
+
+.preparation {
+  background-color: rgb(255, 247, 252);
+  width: 220px;
+  height: 70px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+.preparation h6 {
+  margin-top: -5px;
+  color: var(--deep);
+}
+.preparation ul {
+  font-size: x-small;
+  margin-top: -7%;
+}
+
+.ingredient h5 {
+  color: var(--deep);
+}
+.ingredients h6 {
+  margin-top: -5px;
+  padding: 5px;
+}
+.ingredient ul {
+  font-size: xx-small;
+}
+
+.instruction h5 {
+  color: var(--deep);
+}
+.instruction li {
+  font-size: xx-small;
+}
+
+.nutrition h5 {
+  margin-top: -5px;
+  color: var(--deep);
+}
+.nutrition p {
+  font-size: xx-small;
+  margin-top: -10px;
+}
+
+.flex-container .flex-1 {
+  display: flex;
+  gap: 80px;
+}
+.flex-container .flex-1 p:last-child {
+  color: var(--deep);
+  font-weight: bolder;
+}
+
+.flex-container .flex-2 {
+  display: flex;
+  gap: 90px;
+}
+.flex-container .flex-2 p:last-child {
+  color: var(--deep);
+  font-weight: bolder;
+}
+
+.flex-container .flex-3 {
+  display: flex;
+  gap: 85px;
+}
+.flex-container .flex-3 p:last-child {
+  color: var(--deep);
+  font-weight: bolder;
+}
+
+.flex-container .flex-4 {
+  display: flex;
+  gap: 100px;
+}
+.flex-container .flex-4 p:last-child {
+  color: var(--deep);
+  font-weight: bolder;
+}
