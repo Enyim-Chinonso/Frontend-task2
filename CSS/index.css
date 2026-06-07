@@ -23,7 +23,7 @@ body {
 
 .container .all-content .simple h5 {
   margin-top: -3px;
-  color: var(--deep);
+  color: rgb(58, 57, 56);
 }
 .container .all-content .simple p {
   font-size: x-small;
